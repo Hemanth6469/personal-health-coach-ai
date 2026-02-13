@@ -1,2 +1,34 @@
 # personal-health-coach-ai
-AI agent that analyzes health data and gives personalized recommendations
+Overview:
+Personal Health Coach AI is an intelligent health monitoring assistant that analyzes medical history, lifestyle data, and wellness metrics to provide personalized health recommendations while optimizing processing cost.
+
+Features:
+Health data compression
+Medical history summarization
+Personalized wellness recommendations
+Low-cost AI inference
+Secure data handling
+
+Tech Stack:
+Python
+OpenAI API / LLM
+FastAPI / Flask
+SQLite / Firebase
+React (Optional Frontend)
+
+Project Structure:
+personal-health-coach-ai/
+│
+├── backend/
+├── frontend/
+├── models/
+├── data/
+└── README.md
+
+Installation:
+git clone https://github.com/yourusername/personal-health-coach-ai
+cd personal-health-coach-ai
+pip install -r requirements.txt
+
+Run:
+python app.py
