@@ -1,0 +1,31 @@
+def analyze_health(age, steps, sleep_hours, water_intake):
+
+    recommendations = []
+    score = 100
+
+    # Steps
+    if steps < 5000:
+        recommendations.append("Increase walking to 7000+ steps daily")
+        score -= 20
+    else:
+        recommendations.append("Good physical activity level")
+
+    # Sleep
+    if sleep_hours < 6:
+        recommendations.append("Sleep at least 7 hours")
+        score -= 20
+    else:
+        recommendations.append("Healthy sleep duration")
+
+    # Water
+    if water_intake < 2:
+        recommendations.append("Drink at least 2-3L water daily")
+        score -= 10
+    else:
+        recommendations.append("Good hydration level")
+
+    # Age Check
+    if age > 40:
+        recommendations.append("Do regular health checkups")
+
+    return recommendations, score
