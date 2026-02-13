@@ -1,0 +1,19 @@
+personal-health-coach-ai/
+│
+├── app/
+│   ├── main.py
+│   ├── models/
+│   │   └── health_model.py
+│   ├── routes/
+│   │   └── health_routes.py
+│   ├── database/
+│   │   └── db.py
+│   └── schemas/
+│       └── health_schema.py
+│
+├── data/
+│   └── health_data.json
+│
+├── requirements.txt
+├── README.md
+└── run.py
