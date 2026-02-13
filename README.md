@@ -32,3 +32,18 @@ pip install -r requirements.txt
 
 Run:
 python app.py
+
+
+Example Use Case:
+Input:Age: 22
+Steps: 3000/day
+Sleep: 5 hrs
+Output:
+Increase daily walking to 7000 steps
+Improve sleep to 7 hours
+Hydration reminder
+
+Future Improvements:
+Wearable integration
+Voice assistant
+Doctor dashboard
